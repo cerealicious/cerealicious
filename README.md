@@ -49,7 +49,7 @@
 ╠═════════════════════════════════════════════════════════════╬═════════════╣
 ║  Human-First Mindset & User Empathy                         ║        100% ║
 ║  First-Contact Resolution (FCR Rate)                        ║         90% ║
-║  Enterprise Queue Performance (Ontario Gov / OPS Peak)      ║      253.7% ║
+║  Enterprise Queue Performance (Private and Public Sector)   ║      253.7% ║
 ║  Cloud Endpoint Provisioning (Intune & Autopilot Group Tags)║         98% ║
 ║  Mobile Device Management (Jamf Pro & Workspace ONE UEM)    ║         95% ║
 ║  Identity & Access Governance (Active Directory / IAM)      ║         96% ║
@@ -131,7 +131,7 @@
 
 | Fun Metric | Verified Record | Context &amp; Details |
 | :--- | :--- | :--- |
-| ⚡ **Peak Queue Efficiency** | **253.7%** | Ontario Government incident resolution across 30 ministries (60k+ users) |
+| ⚡ **Peak Queue Efficiency** | **253.7%** | Enterprise Queue Performance (60k+ User Multi-Tier) |
 | 🎯 **First-Contact Resolution** | **90% FCR** | Enterprise client frontline support (Insight) |
 | 👥 **People Empowered** | **100+ Users & Peers** | Educators trained in remote workflows + incoming analysts mentored |
 | ⌨️ **Daily Driver Keycaps** | **Custom Mechanical Keyboards** | Crisp linear & tactile feedback (check the interactive keys on my website!) |
