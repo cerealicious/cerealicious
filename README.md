@@ -16,11 +16,10 @@
   </p>
 
   <p align="center">
-    <a href="https://ceriltalan.me"><img src="https://img.shields.io/badge/Bowl_Status-Zero--G_Endpoint_🥣-FFB84D?style=flat-square&labelColor=161B22" alt="Bowl Status" /></a>
-    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Experience-9%2B_Years_Enterprise_IT-6BCB77?style=flat-square&labelColor=161B22" alt="Experience" /></a>
-    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Efficiency_Peak-253.7%25_OPS_Queue-FF6B8B?style=flat-square&labelColor=161B22" alt="Efficiency Peak" /></a>
-    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Resolution-90%25_First--Call_FCR-4D96FF?style=flat-square&labelColor=161B22" alt="FCR" /></a>
-    <a href="https://ceriltalan.me"><img src="https://img.shields.io/badge/Serving-Toronto%2C_ON_🍁-9B5DE5?style=flat-square&labelColor=161B22" alt="Location" /></a>
+    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Bowl_Status-Floating_in_Zero--G_🥣-FFB84D?style=flat-square&labelColor=161B22" alt="Bowl Status" /></a>
+    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Serving-100%25_Whole_Grain_Code-6BCB77?style=flat-square&labelColor=161B22" alt="Code Quality" /></a>
+    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Daily_Value-Infinite_Curiosity-FF6B8B?style=flat-square&labelColor=161B22" alt="Curiosity" /></a>
+    <a href="#-pour-yourself-a-bowl-contact"><img src="https://img.shields.io/badge/Printers_Fixed-404_Paper_Jams-4D96FF?style=flat-square&labelColor=161B22" alt="Printers Fixed" /></a>
   </p>
 
   <p align="center">
@@ -70,11 +69,11 @@
 ```
 
   <p>
-    👋 <strong>Hey there! I'm Ceril Anthony Talan (<code>cerealicious</code>).</strong><br />
-    Based in Toronto, ON, I have over <strong>9 years of enterprise and solutions experience</strong> specializing in cloud endpoint provisioning, identity governance, and user-first IT resolution. Finishing my final semester in the <em>Computer Systems Technician</em> program at <strong>Seneca Polytechnic</strong>, I focus on building infrastructure that pairs enterprise-grade reliability with genuine human connection.
+    👋 <strong>Hey there! I'm the human behind <code>cerealicious</code>.</strong><br />
+    By day, I troubleshoot systems, untangle networks, and help people solve everyday tech headaches. By night, I tinker with clean, lightweight web tools, student resource hubs, and personal coding projects.
   </p>
   <p>
-    From managing multi-tier queues across 30 Ontario government ministries (peaking at <strong>253.7% efficiency</strong>) to deploying zero-touch configurations across Windows, macOS, and mobile devices, my goal is simple: <em>make complex technology intuitive, transparent, and completely dependable.</em>
+    My philosophy: <em>Technology should feel intuitive, dependable, and just a little bit delightful.</em> Whether diagnosing a stubborn system glitch or designing a distraction-free layout, I focus on clean aesthetics, good vibes, and zero unnecessary weight.
   </p>
 
    </td>
@@ -143,9 +142,7 @@
 <br />
 
 ## 🥛 Pour Yourself a Bowl (Contact)
-
-Have an enterprise infrastructure role, IT systems challenge, or collaboration in mind? Let's connect!
-
+Looking to connect, chat about systems, or collaborate on a project? Reach out below!
 <p align="center">
   <a href="mailto:cereals.aroma948@simplelogin.com">
     <img src="https://img.shields.io/badge/Email-cereals.aroma948%40simplelogin.com-FF6B8B?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" />
@@ -153,10 +150,6 @@ Have an enterprise infrastructure role, IT systems challenge, or collaboration i
   &nbsp;
   <a href="https://discord.com/users/487470641692278784">
     <img src="https://img.shields.io/badge/Discord-Chat_on_Discord-9B5DE5?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-  &nbsp;
-  <a href="https://ceriltalan.me">
-    <img src="https://img.shields.io/badge/Portfolio-ceriltalan.me-4D96FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
   </a>
 </p>
 
