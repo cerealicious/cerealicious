@@ -10,20 +10,21 @@
   <br />
 
   <p align="center">
-    <strong>IT Systems Support</strong> &nbsp;•&nbsp; 
-    <strong>Student Study Hubs</strong> &nbsp;•&nbsp; 
-    <strong>Web Craft &amp; Freelance Code</strong>
+    <strong>IT Analyst</strong> &nbsp;•&nbsp; 
+    <strong>Endpoint Infrastructure Specialist</strong> &nbsp;•&nbsp; 
+    <strong>Enterprise Operations</strong>
   </p>
 
   <p align="center">
-    <a href="#-whats-in-the-bowl"><img src="https://img.shields.io/badge/Bowl_Status-Floating_in_Zero--G_🥣-FFB84D?style=flat-square&labelColor=161B22" alt="Bowl Status" /></a>
-    <a href="#-ingredients-tech-stack"><img src="https://img.shields.io/badge/Serving-100%25_Whole_Grain_Code-6BCB77?style=flat-square&labelColor=161B22" alt="Code Quality" /></a>
-    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Daily_Value-Infinite_Curiosity-FF6B8B?style=flat-square&labelColor=161B22" alt="Curiosity" /></a>
-    <a href="#-pour-yourself-a-bowl-contact"><img src="https://img.shields.io/badge/Printers_Fixed-404_Paper_Jams-4D96FF?style=flat-square&labelColor=161B22" alt="Printers Fixed" /></a>
+    <a href="https://ceriltalan.me"><img src="https://img.shields.io/badge/Bowl_Status-Zero--G_Endpoint_🥣-FFB84D?style=flat-square&labelColor=161B22" alt="Bowl Status" /></a>
+    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Experience-9%2B_Years_Enterprise_IT-6BCB77?style=flat-square&labelColor=161B22" alt="Experience" /></a>
+    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Efficiency_Peak-253.7%25_OPS_Queue-FF6B8B?style=flat-square&labelColor=161B22" alt="Efficiency Peak" /></a>
+    <a href="#-nutrition-facts"><img src="https://img.shields.io/badge/Resolution-90%25_First--Call_FCR-4D96FF?style=flat-square&labelColor=161B22" alt="FCR" /></a>
+    <a href="https://ceriltalan.me"><img src="https://img.shields.io/badge/Serving-Toronto%2C_ON_🍁-9B5DE5?style=flat-square&labelColor=161B22" alt="Location" /></a>
   </p>
 
   <p align="center">
-    <em>"Stay crunchy, test your backups, and never code on an empty stomach."</em>
+    <em>"Bridging enterprise systems and human connection with reliability, empathy, and zero unnecessary weight."</em>
   </p>
 
 </div>
@@ -39,42 +40,41 @@
 ```
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                             NUTRITION FACTS                               ║
-║  Serving Size: 1 IT Specialist / Student Developer                        ║
-║  Servings Per Container: 1 Infinite Supply of Curiosity                   ║
+║  Serving Size: 1 IT Analyst / Endpoint Infrastructure Specialist          ║
+║  Servings Per Container: 9+ Years of Enterprise Problem-Solving           ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Amount Per Serving                                                       ║
-║  Calories: 0 (Powered entirely by black tea & coffee)                     ║
+║  Calories: 0 (Powered entirely by Earl Grey & Lubed Mechanical Keycaps)   ║
 ╠═════════════════════════════════════════════════════════════╦═════════════╣
 ║                                                             ║ % Daily Val*║
 ╠═════════════════════════════════════════════════════════════╬═════════════╣
-║  Total Problem Solving & Troubleshooting                    ║        100% ║
-║    ├─ "Have you tried turning it off and on again?"         ║        250% ║
-║    ├─ Printer Whisperer & Network Debugging                 ║         96% ║
-║    └─ Root Cause Analysis (It was DNS)                      ║         99% ║
-║  Web Craft & Student Hub Architecture                       ║         95% ║
-║    ├─ Clean, Breathable, Anti-Gravity UI/UX                 ║         98% ║
-║    ├─ Accessible Study Portals & Interactive Flashcards     ║         94% ║
-║    └─ Freelance Client Delivery                             ║         92% ║
-║  Mechanical Keyboard Typing Clicks                          ║        150% ║
-║  Patience & Empathy with End Users                          ║        100% ║
-║  Cable Management Obsession                                 ║         88% ║
+║  Human-First Mindset & User Empathy                         ║        100% ║
+║  First-Contact Resolution (FCR Rate)                        ║         90% ║
+║  Enterprise Queue Performance (Ontario Gov / OPS Peak)      ║      253.7% ║
+║  Cloud Endpoint Provisioning (Intune & Autopilot Group Tags)║         98% ║
+║  Mobile Device Management (Jamf Pro & Workspace ONE UEM)    ║         95% ║
+║  Identity & Access Governance (Active Directory / IAM)      ║         96% ║
+║  People Trained, Mentored & Supported (Educators & Peers)   ║       100+  ║
+║  Multi-Platform Diagnostics (Windows, macOS, iOS, Android)  ║         99% ║
+║  "Have you tried restarting your endpoint?"                 ║        250% ║
+║  Patience with Executive TechLounge & Hardware Jams         ║        120% ║
 ╠═════════════════════════════════════════════════════════════╩═════════════╣
-║  Fortified with Essential Daily Vitamins:                                 ║
-║  • Vitamin A (Active Directory & User Onboarding)                         ║
-║  • Vitamin B (Bash & PowerShell Automation)                               ║
-║  • Vitamin C (CSS Flexbox, Grid & Modern Web APIs)                        ║
-║  • Vitamin D (Documentation & Step-by-Step Guides)                        ║
+║  Fortified with Essential Enterprise Vitamins:                            ║
+║  • Vitamin A (Autopilot, Intune & Cloud Provisioning)                     ║
+║  • Vitamin B (Active Directory, IAM & Group Policy Security)              ║
+║  • Vitamin C (Citrix Workspace, VMware & Remote Desktop)                  ║
+║  • Vitamin D (Documentation, SOPs & Technical Enablement)                 ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
-║  * Percent Daily Values are based on a 2,000 ticket/semester diet.        ║
+║  * Percent Daily Values are based on a 60,000+ enterprise user diet.      ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
   <p>
-    👋 <strong>Hey there! I'm the human behind <code>cerealicious</code>.</strong><br />
-    By day, I troubleshoot networks, wrangle operating systems, and help fellow students and faculty navigate technical hurdles. By night, I craft clean, floating web hubs, student resource directories, and freelance client portals.
+    👋 <strong>Hey there! I'm Ceril Anthony Talan (<code>cerealicious</code>).</strong><br />
+    Based in Toronto, ON, I have over <strong>9 years of enterprise and solutions experience</strong> specializing in cloud endpoint provisioning, identity governance, and user-first IT resolution. Finishing my final semester in the <em>Computer Systems Technician</em> program at <strong>Seneca Polytechnic</strong>, I focus on building infrastructure that pairs enterprise-grade reliability with genuine human connection.
   </p>
   <p>
-    My philosophy: <em>Technology should feel intuitive, reliable, and just a little bit delightful.</em> Whether diagnosing a mysterious DNS loop or designing a distraction-free study space, I aim for clean aesthetics and zero unnecessary weight.
+    From managing multi-tier queues across 30 Ontario government ministries (peaking at <strong>253.7% efficiency</strong>) to deploying zero-touch configurations across Windows, macOS, and mobile devices, my goal is simple: <em>make complex technology intuitive, transparent, and completely dependable.</em>
   </p>
 
    </td>
@@ -85,118 +85,58 @@
 
 ## 🌾 Ingredients (Tech Stack)
 
-> **INGREDIENTS**: Whole-Grain TypeScript, Enriched JavaScript, Modern HTML5 & CSS3, Fortified PowerShell, Active Directory, Linux Kernels, Visual Studio, VS Code, Git Version Control, Cloud Backups, Naturally Flavored Earl Grey (2%), Zero-G Marshmallows (1%).
+> **INGREDIENTS**: Microsoft Intune, Windows Autopilot, Active Directory, Microsoft Azure, Microsoft 365, Identity & Access (IAM), Windows 11/10, macOS, Jamf Pro, Workspace ONE UEM, ServiceNow, BMC Remedy, eSMT, VMware, Citrix Workspace, Remote Desktop, Git Versioning, Microsoft Copilot, Google Gemini, Naturally Flavored Earl Grey (2%), Zero-G Marshmallows (1%).
 
 <br />
 
-### 🥣 Whole Grains &middot; Frontend & Student Hubs
+### ☁️ Whole Grains &middot; Cloud Endpoints, Identity & Governance
 <p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro" />
+  <img src="https://img.shields.io/badge/Microsoft_Intune-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Intune" />
+  <img src="https://img.shields.io/badge/Windows_Autopilot-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Autopilot" />
+  <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Active Directory" />
+  <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square&logo=microsoftoffice&logoColor=white" alt="M365" />
+  <img src="https://img.shields.io/badge/IAM-Identity_%26_Access-30363D?style=flat-square&logo=auth0&logoColor=white" alt="IAM" />
+  <img src="https://img.shields.io/badge/Jamf_Pro-000000?style=flat-square&logo=apple&logoColor=white" alt="Jamf Pro" />
+  <img src="https://img.shields.io/badge/Workspace_ONE_UEM-607D8B?style=flat-square&logo=vmware&logoColor=white" alt="Workspace ONE" />
 </p>
 
-### ⚡ Fortified Minerals &middot; IT Support, Systems & Networks
+### 🖥️ Fortified Minerals &middot; Platforms & Virtualization
 <p>
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/Bash_Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Active Directory" />
-  <img src="https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows Server" />
-  <img src="https://img.shields.io/badge/Linux_Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-  <img src="https://img.shields.io/badge/TCP%2FIP_Networking-30363D?style=flat-square&logo=wireshark&logoColor=white" alt="Networking" />
+  <img src="https://img.shields.io/badge/Windows_11%2F10-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows" />
+  <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS" />
+  <img src="https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white" alt="iOS" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/VMware-607D8B?style=flat-square&logo=vmware&logoColor=white" alt="VMware" />
+  <img src="https://img.shields.io/badge/Citrix_Workspace-000000?style=flat-square&logo=citrix&logoColor=white" alt="Citrix" />
+  <img src="https://img.shields.io/badge/Remote_Desktop-0078D4?style=flat-square&logo=anydesk&logoColor=white" alt="RDP" />
   <img src="https://img.shields.io/badge/Hardware_Diagnostics-6E7681?style=flat-square&logo=ifixit&logoColor=white" alt="Hardware" />
 </p>
 
-### 🥛 Milk & Sweeteners &middot; Tooling, IDEs & Workflow
+### 🎫 Sweeteners & Crunch &middot; ITSM Platforms & Modern Workflow
 <p>
-  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat-square&logo=visual-studio&logoColor=white" alt="Visual Studio" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Notion" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/ServiceNow-81B5A1?style=flat-square&logo=servicenow&logoColor=white" alt="ServiceNow" />
+  <img src="https://img.shields.io/badge/BMC_Remedy-E31937?style=flat-square&logo=bmcsoftware&logoColor=white" alt="BMC Remedy" />
+  <img src="https://img.shields.io/badge/eSMT_ITSM-30363D?style=flat-square&logo=jira&logoColor=white" alt="eSMT" />
+  <img src="https://img.shields.io/badge/Git_Versioning-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Microsoft_Copilot-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Copilot" />
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75C4?style=flat-square&logo=google&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
 </p>
 
 <br />
 
-## 🥣 What's in the Bowl (Featured Projects)
-
-A showcase of my recent student hubs, IT support scripts, and freelance coding projects:
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎓 Campus Study Hub</h3>
-      <p>A lightweight, distraction-free study portal built for university cohorts. Features centralized resource directories, collaborative exam study guides, and zero-gravity countdown timers.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Astro-3178C6?style=flat-square" alt="Astro" />
-        <img src="https://img.shields.io/badge/TypeScript-23272D?style=flat-square" alt="TS" />
-        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square" alt="Tailwind" />
-      </p>
-      <p>
-        <a href="https://github.com/cerealicious"><strong>Explore Repository &rarr;</strong></a> &bull; 
-        <a href="#-whats-in-the-bowl"><em>Live Demo</em></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛠️ HelpDesk Toolkit &amp; Automation</h3>
-      <p>A modular suite of PowerShell and Bash scripts for rapid workstation onboarding, network latency monitoring, automated ticket triage, and printer driver repairs.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square" alt="PowerShell" />
-        <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square" alt="Bash" />
-        <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square" alt="AD" />
-      </p>
-      <p>
-        <a href="https://github.com/cerealicious"><strong>Explore Repository &rarr;</strong></a> &bull; 
-        <a href="#-whats-in-the-bowl"><em>Runbooks</em></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌐 Freelance Web Portals</h3>
-      <p>Bespoke, high-performance web pages for student organizations, independent creators, and local businesses. Fast loading times, clean mobile layouts, and modern accessibility standards.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square" alt="React" />
-        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square" alt="Tailwind" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square" alt="Vite" />
-      </p>
-      <p>
-        <a href="https://github.com/cerealicious"><strong>Explore Case Studies &rarr;</strong></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📖 The IT Runbook &amp; Knowledge Base</h3>
-      <p>My living repository of IT cheat sheets, hardware teardowns, network subnet calculators, and self-hosted server playbooks. Built with love in Visual Studio.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square" alt="Markdown" />
-        <img src="https://img.shields.io/badge/Docs-6E7681?style=flat-square" alt="Docs" />
-        <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat-square" alt="VS" />
-      </p>
-      <p>
-        <a href="https://github.com/cerealicious"><strong>Read the Docs &rarr;</strong></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-## 🎁 Toy Inside the Box (Personal Records &amp; Fun Facts)
+## 🎁 Toy Inside the Box (Personal Records &amp; Real Stats)
 
 <div align="center">
 
-| Fun Metric | Record / Spec | Notes |
+| Fun Metric | Verified Record | Context &amp; Details |
 | :--- | :--- | :--- |
-| ⌨️ **Daily Driver Keyboard** | Custom 65% with Lubed Linears | Sound profile: like milk pouring over crispy cereal |
-| ⚡ **Fastest Ticket Resolved** | 12 seconds | User accidentally hit the hardware Wi-Fi toggle |
-| ☕ **Fuel Economy** | 3 mugs of Earl Grey / day | +1 extra for every unexpected Active Directory sync error |
-| 🧩 **Current Quest** | Building student hub micro-tools | Interactive GPA planners & syllabus synchronizers |
+| ⚡ **Peak Queue Efficiency** | **253.7%** | Ontario Government incident resolution across 30 ministries (60k+ users) |
+| 🎯 **First-Contact Resolution** | **90% FCR** | Enterprise client frontline support (Insight) |
+| 👥 **People Empowered** | **100+ Users & Peers** | Educators trained in remote workflows + incoming analysts mentored |
+| ⌨️ **Daily Driver Keycaps** | **Custom Mechanical Keyboards** | Crisp linear & tactile feedback (check the interactive keys on my website!) |
+| 🍵 **Fuel Economy** | **3 Mugs Earl Grey / Day** | Clean energy for zero-touch cloud provisioning |
 
 </div>
 
@@ -204,25 +144,24 @@ A showcase of my recent student hubs, IT support scripts, and freelance coding p
 
 ## 🥛 Pour Yourself a Bowl (Contact)
 
-Looking to collaborate on a student hub project, need IT infrastructure advice, or want to build a freelance website together? Let's connect!
+Have an enterprise infrastructure role, IT systems challenge, or collaboration in mind? Let's connect!
 
 <p align="center">
-  <a href="mailto:hello@cerealicious.dev">
-    <img src="https://img.shields.io/badge/Email-hello%40cerealicious.dev-FF6B8B?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Email" />
+  <a href="mailto:cereals.aroma948@simplelogin.com">
+    <img src="https://img.shields.io/badge/Email-cereals.aroma948%40simplelogin.com-FF6B8B?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" />
   </a>
   &nbsp;
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-4D96FF?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://discord.com/users/487470641692278784">
+    <img src="https://img.shields.io/badge/Discord-Chat_on_Discord-9B5DE5?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
   &nbsp;
-  <a href="https://discord.com">
-    <img src="https://img.shields.io/badge/Discord-Chat-9B5DE5?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  <a href="https://ceriltalan.me">
+    <img src="https://img.shields.io/badge/Portfolio-ceriltalan.me-4D96FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
   </a>
 </p>
 
 <br />
 
 <div align="center">
-  <sub>Designed with milk, mechanical switches, and zero gravity for <strong>cerealicious</strong> &bull; Visual Studio &bull; 2026</sub>
+  <sub>Crafted with milk, mechanical switches, and zero gravity for <strong>cerealicious</strong> &bull; Visual Studio &bull; 2026</sub>
 </div>
-
