@@ -1,0 +1,379 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="100%" height="100%">
+  <defs>
+    <!-- Gradients & Shadows -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#161B22" />
+    </linearGradient>
+    <linearGradient id="chassisGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#21262D" />
+      <stop offset="100%" stop-color="#161B22" />
+    </linearGradient>
+    <linearGradient id="keyTopGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#30363D" />
+      <stop offset="100%" stop-color="#21262D" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+
+    <style>
+      /* Global Typography & Anti-Gravity Motion */
+      .mono-text {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      }
+      .sans-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      }
+
+      /* Zero-G Keyboard Floating */
+      .floating-chassis {
+        animation: zeroGBob 6s ease-in-out infinite;
+        transform-origin: 420px 210px;
+      }
+      @keyframes zeroGBob {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        33% { transform: translateY(-5px) rotate(0.4deg); }
+        66% { transform: translateY(4px) rotate(-0.3deg); }
+      }
+
+      /* Mechanical Keycap Presses */
+      .keycap {
+        transition: transform 0.1s ease;
+        animation-duration: 4.8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+      @keyframes pressKey {
+        0%, 3%, 100% { transform: translateY(0px); }
+        1% { transform: translateY(5px); }
+        2.5% { transform: translateY(0px); }
+      }
+
+      .k-0  { animation-name: pressKey; animation-delay: 0.15s; }
+      .k-1  { animation-name: pressKey; animation-delay: 0.32s; }
+      .k-2  { animation-name: pressKey; animation-delay: 0.49s; }
+      .k-3  { animation-name: pressKey; animation-delay: 0.66s; }
+      .k-4  { animation-name: pressKey; animation-delay: 0.83s; }
+      .k-5  { animation-name: pressKey; animation-delay: 1.00s; }
+      .k-6  { animation-name: pressKey; animation-delay: 1.17s; }
+      .k-7  { animation-name: pressKey; animation-delay: 1.34s; }
+      .k-8  { animation-name: pressKey; animation-delay: 1.51s; }
+      .k-9  { animation-name: pressKey; animation-delay: 1.68s; }
+      .k-10 { animation-name: pressKey; animation-delay: 1.85s; }
+      .k-11 { animation-name: pressKey; animation-delay: 2.02s; }
+
+      /* Cereal Loop Pop and Zero-G Drift */
+      .cereal-bit {
+        opacity: 0;
+        animation-duration: 4.8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.1, 0.7, 0.1, 1);
+      }
+
+      @keyframes popBurst1 {
+        0%, 2% { opacity: 0; transform: translate(0, 0) scale(0.4) rotate(0deg); }
+        3% { opacity: 1; transform: translate(-8px, -28px) scale(1.1) rotate(45deg); }
+        15% { opacity: 0.95; transform: translate(-18px, -65px) scale(1) rotate(140deg); }
+        35% { opacity: 0.8; transform: translate(-28px, -110px) scale(0.95) rotate(260deg); }
+        55% { opacity: 0; transform: translate(-35px, -140px) scale(0.85) rotate(360deg); }
+        100% { opacity: 0; }
+      }
+
+      @keyframes popBurst2 {
+        0%, 2% { opacity: 0; transform: translate(0, 0) scale(0.4) rotate(0deg); }
+        3% { opacity: 1; transform: translate(12px, -34px) scale(1.15) rotate(-50deg); }
+        18% { opacity: 0.95; transform: translate(25px, -80px) scale(1) rotate(-160deg); }
+        40% { opacity: 0.75; transform: translate(36px, -125px) scale(0.9) rotate(-290deg); }
+        60% { opacity: 0; transform: translate(45px, -150px) scale(0.8) rotate(-400deg); }
+        100% { opacity: 0; }
+      }
+
+      @keyframes popBurst3 {
+        0%, 2% { opacity: 0; transform: translate(0, 0) scale(0.3) rotate(0deg); }
+        3% { opacity: 1; transform: translate(0px, -42px) scale(1.1) rotate(20deg); }
+        16% { opacity: 0.9; transform: translate(2px, -92px) scale(1) rotate(110deg); }
+        38% { opacity: 0.7; transform: translate(5px, -135px) scale(0.9) rotate(210deg); }
+        58% { opacity: 0; transform: translate(6px, -165px) scale(0.8) rotate(310deg); }
+        100% { opacity: 0; }
+      }
+
+      .cb-0-a { animation-name: popBurst1; animation-delay: 0.15s; }
+      .cb-0-b { animation-name: popBurst2; animation-delay: 0.15s; }
+      .cb-1-a { animation-name: popBurst3; animation-delay: 0.32s; }
+      .cb-1-b { animation-name: popBurst1; animation-delay: 0.32s; }
+      .cb-2-a { animation-name: popBurst2; animation-delay: 0.49s; }
+      .cb-2-b { animation-name: popBurst3; animation-delay: 0.49s; }
+      .cb-3-a { animation-name: popBurst1; animation-delay: 0.66s; }
+      .cb-3-b { animation-name: popBurst2; animation-delay: 0.66s; }
+      .cb-4-a { animation-name: popBurst3; animation-delay: 0.83s; }
+      .cb-4-b { animation-name: popBurst1; animation-delay: 0.83s; }
+      .cb-5-a { animation-name: popBurst2; animation-delay: 1.00s; }
+      .cb-5-b { animation-name: popBurst3; animation-delay: 1.00s; }
+      .cb-6-a { animation-name: popBurst1; animation-delay: 1.17s; }
+      .cb-6-b { animation-name: popBurst2; animation-delay: 1.17s; }
+      .cb-7-a { animation-name: popBurst3; animation-delay: 1.34s; }
+      .cb-7-b { animation-name: popBurst1; animation-delay: 1.34s; }
+      .cb-8-a { animation-name: popBurst2; animation-delay: 1.51s; }
+      .cb-8-b { animation-name: popBurst3; animation-delay: 1.51s; }
+      .cb-9-a { animation-name: popBurst1; animation-delay: 1.68s; }
+      .cb-9-b { animation-name: popBurst2; animation-delay: 1.68s; }
+      .cb-10-a { animation-name: popBurst3; animation-delay: 1.85s; }
+      .cb-10-b { animation-name: popBurst1; animation-delay: 1.85s; }
+      .cb-11-a { animation-name: popBurst2; animation-delay: 2.02s; }
+      .cb-11-b { animation-name: popBurst3; animation-delay: 2.02s; }
+
+      /* Ambient Zero-G Micro Dots */
+      .ambient-dust {
+        animation: dustFloat 7s ease-in-out infinite alternate;
+      }
+      @keyframes dustFloat {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+        50% { transform: translateY(-8px) translateX(4px); opacity: 0.7; }
+        100% { transform: translateY(6px) translateX(-5px); opacity: 0.4; }
+      }
+
+      /* Glowing Status Pulse */
+      .status-pulse {
+        animation: pulseGlow 2.5s infinite alternate;
+      }
+      @keyframes pulseGlow {
+        0% { opacity: 0.6; }
+        100% { opacity: 1; filter: drop-shadow(0 0 6px #FFB84D); }
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="840" height="300" rx="16" fill="url(#bgGrad)" stroke="#30363D" stroke-width="1.5" />
+
+  <!-- Ambient Floating Zero-G Space Particles -->
+  <g class="ambient-dust">
+    <circle cx="95" cy="45" r="2.5" fill="#FF6B8B" />
+    <circle cx="210" cy="70" r="1.5" fill="#FFB84D" />
+    <circle cx="360" cy="35" r="2.0" fill="#6BCB77" />
+    <circle cx="510" cy="65" r="1.8" fill="#4D96FF" />
+    <circle cx="680" cy="40" r="2.2" fill="#9B5DE5" />
+    <circle cx="760" cy="85" r="1.5" fill="#FF9100" />
+    <circle cx="140" cy="120" r="1.8" fill="#FF6B8B" opacity="0.6" />
+    <circle cx="730" cy="140" r="2.0" fill="#6BCB77" opacity="0.6" />
+  </g>
+
+  <!-- Top Anti-Gravity Spec Bar -->
+  <g class="sans-text">
+    <text x="50" y="44" fill="#8B949E" font-size="12" font-weight="600" letter-spacing="1">
+      PROJECT // CEREALICIOUS.SYS
+    </text>
+    <g class="status-pulse">
+      <circle cx="750" cy="40" r="4.5" fill="#FFB84D" />
+      <text x="762" y="44" fill="#FFB84D" font-size="12" font-weight="600" letter-spacing="0.5">
+        ZERO-G BOWL
+      </text>
+    </g>
+    <line x1="50" y1="58" x2="790" y2="58" stroke="#30363D" stroke-width="1" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Floating Keyboard Chassis Group -->
+  <g class="floating-chassis">
+    <!-- Chassis Body -->
+    <rect x="50" y="152" width="740" height="96" rx="18" fill="url(#chassisGrad)" stroke="#30363D" stroke-width="1.5" filter="url(#dropShadow)" />
+    
+    <!-- Switch Plate Underglow Slot -->
+    <rect x="68" y="168" width="704" height="64" rx="10" fill="#12151A" stroke="#21262D" stroke-width="1" />
+    
+    <!-- Specs Legend Above Keys -->
+    <text x="72" y="142" fill="#8B949E" font-size="11" font-weight="600" class="mono-text" letter-spacing="0.5">
+      MECHANICAL LINEARS // 62G TACTILE BERRY // ZERO-GRAVITY MOUNT
+    </text>
+    <text x="668" y="142" fill="#FF6B8B" font-size="11" font-weight="600" class="mono-text">
+      TYPING: 110 WPM
+    </text>
+
+    <!-- KEYCAP 0: C -->
+    <g class="keycap k-0" transform="translate(76, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">c</text>
+    </g>
+    <!-- Cereal Pop Particles for Key 0 -->
+    <g class="cereal-bit cb-0-a" transform="translate(99, 172)">
+      <circle cx="0" cy="0" r="9" fill="#FF6B8B" stroke="#FFA3B8" stroke-width="1.5" />
+      <circle cx="0" cy="0" r="4" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-0-b" transform="translate(99, 172)">
+      <circle cx="0" cy="0" r="7.5" fill="#FFB84D" />
+      <circle cx="0" cy="0" r="3.2" fill="#0D1117" />
+    </g>
+
+    <!-- KEYCAP 1: E -->
+    <g class="keycap k-1" transform="translate(134, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">e</text>
+    </g>
+    <g class="cereal-bit cb-1-a" transform="translate(157, 172)">
+      <circle cx="0" cy="0" r="8.5" fill="#6BCB77" />
+      <circle cx="0" cy="0" r="3.8" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-1-b" transform="translate(157, 172)">
+      <polygon points="0,-7 6,0 0,7 -6,0" fill="#FFF0F5" />
+    </g>
+
+    <!-- KEYCAP 2: R -->
+    <g class="keycap k-2" transform="translate(192, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">r</text>
+    </g>
+    <g class="cereal-bit cb-2-a" transform="translate(215, 172)">
+      <circle cx="0" cy="0" r="9" fill="#4D96FF" />
+      <circle cx="0" cy="0" r="4" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-2-b" transform="translate(215, 172)">
+      <circle cx="0" cy="0" r="6.5" fill="#FF9100" />
+      <circle cx="0" cy="0" r="2.8" fill="#0D1117" />
+    </g>
+
+    <!-- KEYCAP 3: E -->
+    <g class="keycap k-3" transform="translate(250, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">e</text>
+    </g>
+    <g class="cereal-bit cb-3-a" transform="translate(273, 172)">
+      <circle cx="0" cy="0" r="9.5" fill="#9B5DE5" />
+      <circle cx="0" cy="0" r="4.2" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-3-b" transform="translate(273, 172)">
+      <circle cx="0" cy="0" r="7" fill="#FF6B8B" />
+      <circle cx="0" cy="0" r="3" fill="#0D1117" />
+    </g>
+
+    <!-- KEYCAP 4: A -->
+    <g class="keycap k-4" transform="translate(308, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">a</text>
+    </g>
+    <g class="cereal-bit cb-4-a" transform="translate(331, 172)">
+      <circle cx="0" cy="0" r="9" fill="#FFB84D" />
+      <circle cx="0" cy="0" r="4" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-4-b" transform="translate(331, 172)">
+      <polygon points="0,-7 6,0 0,7 -6,0" fill="#E0F7FA" />
+    </g>
+
+    <!-- KEYCAP 5: L -->
+    <g class="keycap k-5" transform="translate(366, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">l</text>
+    </g>
+    <g class="cereal-bit cb-5-a" transform="translate(389, 172)">
+      <circle cx="0" cy="0" r="8.5" fill="#6BCB77" />
+      <circle cx="0" cy="0" r="3.7" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-5-b" transform="translate(389, 172)">
+      <circle cx="0" cy="0" r="8" fill="#4D96FF" />
+      <circle cx="0" cy="0" r="3.5" fill="#0D1117" />
+    </g>
+
+    <!-- KEYCAP 6: I -->
+    <g class="keycap k-6" transform="translate(424, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">i</text>
+    </g>
+    <g class="cereal-bit cb-6-a" transform="translate(447, 172)">
+      <circle cx="0" cy="0" r="9.2" fill="#FF6B8B" />
+      <circle cx="0" cy="0" r="4.1" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-6-b" transform="translate(447, 172)">
+      <polygon points="0,-7 6,0 0,7 -6,0" fill="#FFFDE7" />
+    </g>
+
+    <!-- KEYCAP 7: C -->
+    <g class="keycap k-7" transform="translate(482, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">c</text>
+    </g>
+    <g class="cereal-bit cb-7-a" transform="translate(505, 172)">
+      <circle cx="0" cy="0" r="9" fill="#9B5DE5" />
+      <circle cx="0" cy="0" r="4" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-7-b" transform="translate(505, 172)">
+      <circle cx="0" cy="0" r="7.5" fill="#FFB84D" />
+      <circle cx="0" cy="0" r="3.2" fill="#0D1117" />
+    </g>
+
+    <!-- KEYCAP 8: I -->
+    <g class="keycap k-8" transform="translate(540, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">i</text>
+    </g>
+    <g class="cereal-bit cb-8-a" transform="translate(563, 172)">
+      <circle cx="0" cy="0" r="8.8" fill="#4D96FF" />
+      <circle cx="0" cy="0" r="3.8" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-8-b" transform="translate(563, 172)">
+      <circle cx="0" cy="0" r="7" fill="#6BCB77" />
+      <circle cx="0" cy="0" r="3" fill="#0D1117" />
+    </g>
+
+    <!-- KEYCAP 9: O -->
+    <g class="keycap k-9" transform="translate(598, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">o</text>
+    </g>
+    <g class="cereal-bit cb-9-a" transform="translate(621, 172)">
+      <circle cx="0" cy="0" r="9.5" fill="#FF9100" />
+      <circle cx="0" cy="0" r="4.2" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-9-b" transform="translate(621, 172)">
+      <polygon points="0,-7 6,0 0,7 -6,0" fill="#F3E5F5" />
+    </g>
+
+    <!-- KEYCAP 10: U -->
+    <g class="keycap k-10" transform="translate(656, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">u</text>
+    </g>
+    <g class="cereal-bit cb-10-a" transform="translate(679, 172)">
+      <circle cx="0" cy="0" r="9" fill="#FF6B8B" />
+      <circle cx="0" cy="0" r="4" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-10-b" transform="translate(679, 172)">
+      <circle cx="0" cy="0" r="7.5" fill="#FFB84D" />
+      <circle cx="0" cy="0" r="3.2" fill="#0D1117" />
+    </g>
+
+    <!-- KEYCAP 11: S -->
+    <g class="keycap k-11" transform="translate(714, 172)">
+      <rect x="0" y="6" width="46" height="48" rx="8" fill="#1C2128" />
+      <rect x="2" y="2" width="42" height="42" rx="7" fill="url(#keyTopGrad)" stroke="#484F58" stroke-width="1" />
+      <text x="23" y="28" fill="#F0F6FC" font-size="18" font-weight="700" text-anchor="middle" class="mono-text">s</text>
+    </g>
+    <g class="cereal-bit cb-11-a" transform="translate(737, 172)">
+      <circle cx="0" cy="0" r="9" fill="#6BCB77" />
+      <circle cx="0" cy="0" r="4" fill="#0D1117" />
+    </g>
+    <g class="cereal-bit cb-11-b" transform="translate(737, 172)">
+      <circle cx="0" cy="0" r="8.5" fill="#9B5DE5" />
+      <circle cx="0" cy="0" r="3.7" fill="#0D1117" />
+    </g>
+  </g>
+
+  <!-- Gentle Zero-G Floating Spoon Accent (top right) -->
+  <g class="ambient-dust" transform="translate(680, 78) rotate(-22)">
+    <path d="M 0 0 C 12 -12 28 -8 24 8 C 20 22 6 22 0 10 L -45 50 C -48 53 -53 53 -55 50 C -57 47 -57 42 -54 39 Z" fill="#30363D" opacity="0.45" />
+  </g>
+</svg>
+
